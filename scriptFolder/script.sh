@@ -10,7 +10,10 @@ cd TestDir1
 for i in {0..9}
 do
    mkdir dir${i}
+#Change directory to the new directories made
+
 cd dir${i}
+
 #make file.txt in directories 0-9
 
 for j in {0..9}
